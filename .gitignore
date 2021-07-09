@@ -1,3 +1,4 @@
 .history
-dependency-reduced-pom.xml
-logs
+/target/
+/logs/
+/dependency-reduced-pom.xml
