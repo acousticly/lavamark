@@ -41,9 +41,9 @@ public class Lavamark {
 
     static final AudioPlayerManager PLAYER_MANAGER = new DefaultAudioPlayerManager();
     private static final String DEFAULT_PLAYLIST = "https://www.youtube.com/playlist?list=PLxEfltgi2XNsq-I1CZ7F-NSarFI5ZJNlz";
-    private static final String DEFAULT_OPUS = "https://www.youtube.com/watch?v=oFm6rbA5BD8";
+    private static final String DEFAULT_OPUS = "https://www.youtube.com/watch?v=M_36UBLkni8";
     private static final long INTERVAL = 2 * 1000;
-    private static final long STEP_SIZE = 20;
+    private static final long STEP_SIZE = 20;https://www.youtube.com/playlist?list=PLV4OKJlLuNm1U29r4mepDUKqowGc5wsbt
     private static final Object WAITER = new Object();
 
     private static List<AudioTrack> tracks;
