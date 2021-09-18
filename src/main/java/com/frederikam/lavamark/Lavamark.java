@@ -40,7 +40,7 @@ public class Lavamark {
     private static final Logger log = LoggerFactory.getLogger(Lavamark.class);
 
     static final AudioPlayerManager PLAYER_MANAGER = new DefaultAudioPlayerManager();
-    private static final String DEFAULT_PLAYLIST = "https://www.youtube.com/playlist?list=PLxEfltgi2XNsq-I1CZ7F-NSarFI5ZJNlz";
+    private static final String DEFAULT_PLAYLIST = "https://www.youtube.com/playlist?list=PLstLGft9UGT2tdWpMJl6yYsvOy9_waVZT";
     private static final String DEFAULT_OPUS = "https://www.youtube.com/watch?v=M_36UBLkni8";
     private static final long INTERVAL = 2 * 1000;
     private static final long STEP_SIZE = 20;
