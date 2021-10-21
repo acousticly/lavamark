@@ -3,5 +3,5 @@ Lavaplayer server benchmarker. How many lavaplayer tracks can your server handle
 All credit goes to [@freyacodes](https://github.com/freyacodes). All I did was fix the incorrect playlist.
 ## Usage:
 ```
-java -jar lavamark-1.0.2.jar
+java -jar lavamark-1.0.4.jar
 ```
