@@ -26,7 +26,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.frederikam</groupId>
    <artifactId>lavamark</artifactId>
-   <version>1.0.3</version>
+   <version>1.0.4</version>
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <maven.compiler.source>1.8</maven.compiler.source>
@@ -37,7 +37,7 @@
       <dependency>
          <groupId>com.github.Walkyst</groupId>
          <artifactId>lavaplayer-fork</artifactId>
-         <version>3a54cbd43b2578ff6b2874b2545941ac29c14b02</version>
+         <version>07f96f11f4bc2c55d21516b2769d4b83286a7996</version>
       </dependency>
       <dependency>
          <groupId>org.slf4j</groupId>
@@ -47,7 +47,7 @@
       <dependency>
          <groupId>ch.qos.logback</groupId>
          <artifactId>logback-classic</artifactId>
-         <version>1.2.0</version>
+         <version>1.2.6</version>
       </dependency>
    </dependencies>
    <repositories>
