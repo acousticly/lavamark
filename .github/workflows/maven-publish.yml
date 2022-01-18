@@ -24,10 +24,3 @@ jobs:
         with:
           name: Lavamark
           path: target/lavamark-1.0.jar
-      - name: Release & Assets
-        uses: Hs1r1us/Release-AIO@v1.0
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          asset_files: ./target/lavamark-1.0.jar
