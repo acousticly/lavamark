@@ -34,6 +34,6 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         overwrite: 'true'
-        release_tag: ${{ GITHUB_SHA }}
+        release_tag: 1.0
         files: |
           target/lavamark-1.0.jar
