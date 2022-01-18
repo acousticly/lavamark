@@ -29,5 +29,5 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: 1.0
-          asset_files: target/lavamark-1.0.jar
+          tag_name: ${{ github.ref }}
+          asset_files: ./target/lavamark-1.0.jar
