@@ -36,4 +36,4 @@ jobs:
         overwrite: 'true'
         release_tag: 1.0
         files: |
-          target/lavamark-1.0.jar
+          ./target/lavamark-1.0.jar
