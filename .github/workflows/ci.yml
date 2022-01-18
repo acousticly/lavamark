@@ -26,7 +26,6 @@ jobs:
           path: target/lavamark-1.0.jar
   release:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged && startsWith(github.head_ref, 'RC')
     needs: [build]
     steps:
     - uses: actions/checkout@master
