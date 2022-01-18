@@ -30,11 +30,9 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Upload artifact and release
-      uses: nanoufo/action-upload-artifacts-and-release-assets@main
+      uses: SierraSoftworks/gh-releases@v1.0.4
       with:
-        path: |
+        token: ${{ secrets.GITHUB_TOKEN }}
+        overwrite: 'true'
+        files: |
           target/lavamark-1.0.jar
-        upload-release-files: true
-        release-upload-url: target/lavamark-1.0.jar
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
