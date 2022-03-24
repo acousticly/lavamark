@@ -24,14 +24,9 @@
 
 package com.frederikam.lavamark;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class AudioConsumer extends Thread {
-
-    private static final Logger log = LoggerFactory.getLogger(AudioConsumer.class);
 
     private final Player player;
     private final int INTERVAL = 20; // A frame is 20ms

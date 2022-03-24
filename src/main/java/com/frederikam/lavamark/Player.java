@@ -5,12 +5,9 @@ import com.sedmelluq.discord.lavaplayer.player.event.AudioEventAdapter;
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
 import com.sedmelluq.discord.lavaplayer.track.AudioTrackEndReason;
 import com.sedmelluq.discord.lavaplayer.track.AudioTrackState;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class Player extends AudioEventAdapter {
 
-    private static final Logger log = LoggerFactory.getLogger(Player.class);
     private AudioPlayer player = Lavamark.PLAYER_MANAGER.createPlayer();
 
     Player() {
